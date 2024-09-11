@@ -3,5 +3,5 @@ process.env.NODE_ENV = 'vercel';
 const { join } = require('path');
 join(__dirname, './node_modules/hexo-kx-api/public');
 join(__dirname, './node_modules/hexo-kx-api/README.md');
-join(__dirname, './node_modules/hexo-kx-api/build');
+join(__dirname, './node_modules/hexo-kx-api/dist');
 require('hexo-kx-api');
